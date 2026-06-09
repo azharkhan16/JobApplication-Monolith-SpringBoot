@@ -1,5 +1,6 @@
 package com.azharx.jobapplication.job;
 
+import com.azharx.jobapplication.company.Company;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -21,4 +22,6 @@ public class Job {
     private String maxSalary;
     private String location;
 
+    @ManyToOne
+    private Company company;
 }
