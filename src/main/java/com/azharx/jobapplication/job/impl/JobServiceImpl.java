@@ -1,8 +1,8 @@
-package com.azharx.jobapplication.service.impl;
+package com.azharx.jobapplication.job.impl;
 
-import com.azharx.jobapplication.entity.Job;
-import com.azharx.jobapplication.repository.JobRepository;
-import com.azharx.jobapplication.service.JobService;
+import com.azharx.jobapplication.job.Job;
+import com.azharx.jobapplication.job.JobRepository;
+import com.azharx.jobapplication.job.JobService;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;

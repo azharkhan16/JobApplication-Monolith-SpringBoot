@@ -1,7 +1,5 @@
-package com.azharx.jobapplication.controller;
+package com.azharx.jobapplication.job;
 
-import com.azharx.jobapplication.entity.Job;
-import com.azharx.jobapplication.service.JobService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package com.azharx.jobapplication.entity;
+package com.azharx.jobapplication.job;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

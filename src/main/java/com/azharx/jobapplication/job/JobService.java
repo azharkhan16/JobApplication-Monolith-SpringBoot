@@ -1,6 +1,4 @@
-package com.azharx.jobapplication.service;
-
-import com.azharx.jobapplication.entity.Job;
+package com.azharx.jobapplication.job;
 
 import java.util.List;
 
