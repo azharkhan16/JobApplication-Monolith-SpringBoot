@@ -1,6 +1,7 @@
 package com.azharx.jobapplication.company;
 
 import com.azharx.jobapplication.job.Job;
+import com.azharx.jobapplication.review.Review;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -25,5 +26,6 @@ public class Company {
     @OneToMany(mappedBy = "company")
     private List<Job> jobs;
 
-    //private List<Review> reviews;
+    @OneToMany(mappedBy = "company")
+    private List<Review> reviews;
 }
