@@ -42,3 +42,14 @@ management.info.env.enabled=true
 info.app.name=JobApplication
 info.app.description=Job app built by codeX-Azhar
 info.app.version=1.0.0
+
+### graceful shutdown configuration
+management.endpoint.shutdown.enabled=true
+server.shutdown=graceful
+
+### Change Log Level at Runtime
+1) POST -> http://localhost:8080/actuator/loggers/com.azharx.jobapplication  <-app name
+2) Body -> JSON
+3) {
+   "configuredLevel": "DEBUG"
+   }
